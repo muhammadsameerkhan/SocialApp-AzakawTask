@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+.body{
+    position: absolute;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    left: 0;
+    top: 0;
+    background: rgba(235, 235, 235, 0.467);
+}
+
+.nav-link{
+    cursor: pointer;
+}
+
+.paddedline{
+  display:block; 
+  width:100%; 
+  border-bottom:1px solid #777; 
+  margin-top:25px;
+  padding-top: 8px;
+  margin-bottom: 8px;
+}
+
+.headingWithBottom{
+    text-align: center;
+    margin-bottom: 10px;
+}

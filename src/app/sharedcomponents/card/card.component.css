@@ -1,0 +1,14 @@
+.card{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: rgba(235, 235, 235, 0.467);
+}
+
+.card-text{
+    margin-bottom: 0px;
+}
+
+h6{
+    margin-top: 10px;
+}
+

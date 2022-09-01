@@ -1,0 +1,34 @@
+<ng-container *ngIf="type == 'feeds'">
+
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">{{post.title}}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">User Id: {{post.userId}}</h6>
+
+            <span class="paddedline"></span>
+            <p class="card-text">{{post.body}}</p>
+        </div>
+    </div>
+</ng-container>
+
+<ng-container *ngIf="type == 'friends'">
+
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">{{user.name}}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Email: {{user.email}}</h6>
+
+            <span class="paddedline"></span>
+            <h6>Personal Information</h6>
+            <p class="card-text">Username: {{user.username}}</p>
+            <p class="card-text">Website: {{user.website}}</p>
+            <p class="card-text">Phone Number: {{user.phone}}</p>
+
+            <span class="paddedline"></span>
+            <h6>Company Information</h6>
+            <p class="card-text">Name: {{user.company.name}}</p>
+            <p class="card-text">Catch Phrase: {{user.company.catchPhrase}}</p>
+
+        </div>
+    </div>
+</ng-container>

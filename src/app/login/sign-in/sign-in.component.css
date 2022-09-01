@@ -1,0 +1,23 @@
+.form-body {
+  width: 360px;
+  height: 400px;
+  margin: 12% auto;
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.form-content{
+    padding: 10px;
+}
+
+button[type='submit']{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.centerHeading{
+    text-align: center;
+    margin-bottom: 20px;
+}

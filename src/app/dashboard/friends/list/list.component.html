@@ -1,0 +1,10 @@
+<div class="container">
+
+    <div class="users">
+        <h4 class="headingWithBottom">FRIENDS</h4>
+
+        <ng-container *ngFor="let user of users; index as i; trackBy: trackChanges">
+            <app-card [user]=user type="friends"></app-card>
+        </ng-container>
+    </div>
+</div>
